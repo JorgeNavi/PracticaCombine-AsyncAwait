@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FC780CCE2CF6449700D52D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC780CAF2CF6449600D52D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC780CB62CF6449600D52D23;
+			remoteInfo = PracticaCombineAsync;
+		};
+		FC780CD82CF6449700D52D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC780CAF2CF6449600D52D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC780CB62CF6449600D52D23;
+			remoteInfo = PracticaCombineAsync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaCombineAsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC780CCD2CF6449700D52D23 /* PracticaCombineAsyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaCombineAsyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaCombineAsyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FC780CDF2CF6449700D52D23 /* Exceptions for "PracticaCombineAsync" folder in "PracticaCombineAsync" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FC780CB62CF6449600D52D23 /* PracticaCombineAsync */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FC780CB92CF6449600D52D23 /* PracticaCombineAsync */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FC780CDF2CF6449700D52D23 /* Exceptions for "PracticaCombineAsync" folder in "PracticaCombineAsync" target */,
+			);
+			path = PracticaCombineAsync;
+			sourceTree = "<group>";
+		};
+		FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PracticaCombineAsyncTests;
+			sourceTree = "<group>";
+		};
+		FC780CDA2CF6449700D52D23 /* PracticaCombineAsyncUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PracticaCombineAsyncUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC780CB42CF6449600D52D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC780CCA2CF6449700D52D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC780CD42CF6449700D52D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC780CAE2CF6449600D52D23 = {
+			isa = PBXGroup;
+			children = (
+				FC780CB92CF6449600D52D23 /* PracticaCombineAsync */,
+				FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */,
+				FC780CDA2CF6449700D52D23 /* PracticaCombineAsyncUITests */,
+				FC780CB82CF6449600D52D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC780CB82CF6449600D52D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */,
+				FC780CCD2CF6449700D52D23 /* PracticaCombineAsyncTests.xctest */,
+				FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC780CB62CF6449600D52D23 /* PracticaCombineAsync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC780CE02CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsync" */;
+			buildPhases = (
+				FC780CB32CF6449600D52D23 /* Sources */,
+				FC780CB42CF6449600D52D23 /* Frameworks */,
+				FC780CB52CF6449600D52D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FC780CB92CF6449600D52D23 /* PracticaCombineAsync */,
+			);
+			name = PracticaCombineAsync;
+			packageProductDependencies = (
+			);
+			productName = PracticaCombineAsync;
+			productReference = FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC780CCC2CF6449700D52D23 /* PracticaCombineAsyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC780CE52CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsyncTests" */;
+			buildPhases = (
+				FC780CC92CF6449700D52D23 /* Sources */,
+				FC780CCA2CF6449700D52D23 /* Frameworks */,
+				FC780CCB2CF6449700D52D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC780CCF2CF6449700D52D23 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */,
+			);
+			name = PracticaCombineAsyncTests;
+			packageProductDependencies = (
+			);
+			productName = PracticaCombineAsyncTests;
+			productReference = FC780CCD2CF6449700D52D23 /* PracticaCombineAsyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC780CD62CF6449700D52D23 /* PracticaCombineAsyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC780CE82CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsyncUITests" */;
+			buildPhases = (
+				FC780CD32CF6449700D52D23 /* Sources */,
+				FC780CD42CF6449700D52D23 /* Frameworks */,
+				FC780CD52CF6449700D52D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC780CD92CF6449700D52D23 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FC780CDA2CF6449700D52D23 /* PracticaCombineAsyncUITests */,
+			);
+			name = PracticaCombineAsyncUITests;
+			packageProductDependencies = (
+			);
+			productName = PracticaCombineAsyncUITests;
+			productReference = FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC780CAF2CF6449600D52D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					FC780CB62CF6449600D52D23 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					FC780CCC2CF6449700D52D23 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FC780CB62CF6449600D52D23;
+					};
+					FC780CD62CF6449700D52D23 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FC780CB62CF6449600D52D23;
+					};
+				};
+			};
+			buildConfigurationList = FC780CB22CF6449600D52D23 /* Build configuration list for PBXProject "PracticaCombineAsync" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC780CAE2CF6449600D52D23;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FC780CB82CF6449600D52D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC780CB62CF6449600D52D23 /* PracticaCombineAsync */,
+				FC780CCC2CF6449700D52D23 /* PracticaCombineAsyncTests */,
+				FC780CD62CF6449700D52D23 /* PracticaCombineAsyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC780CB52CF6449600D52D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC780CCB2CF6449700D52D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC780CD52CF6449700D52D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC780CB32CF6449600D52D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC780CC92CF6449700D52D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC780CD32CF6449700D52D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC780CCF2CF6449700D52D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC780CB62CF6449600D52D23 /* PracticaCombineAsync */;
+			targetProxy = FC780CCE2CF6449700D52D23 /* PBXContainerItemProxy */;
+		};
+		FC780CD92CF6449700D52D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC780CB62CF6449600D52D23 /* PracticaCombineAsync */;
+			targetProxy = FC780CD82CF6449700D52D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC780CE12CF6449700D52D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5K323YN9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC780CE22CF6449700D52D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5K323YN9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC780CE32CF6449700D52D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC780CE42CF6449700D52D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC780CE62CF6449700D52D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5K323YN9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaCombineAsync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticaCombineAsync";
+			};
+			name = Debug;
+		};
+		FC780CE72CF6449700D52D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5K323YN9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaCombineAsync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticaCombineAsync";
+			};
+			name = Release;
+		};
+		FC780CE92CF6449700D52D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5K323YN9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticaCombineAsync;
+			};
+			name = Debug;
+		};
+		FC780CEA2CF6449700D52D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5K323YN9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticaCombineAsync;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC780CB22CF6449600D52D23 /* Build configuration list for PBXProject "PracticaCombineAsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC780CE32CF6449700D52D23 /* Debug */,
+				FC780CE42CF6449700D52D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC780CE02CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC780CE12CF6449700D52D23 /* Debug */,
+				FC780CE22CF6449700D52D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC780CE52CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC780CE62CF6449700D52D23 /* Debug */,
+				FC780CE72CF6449700D52D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC780CE82CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC780CE92CF6449700D52D23 /* Debug */,
+				FC780CEA2CF6449700D52D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC780CAF2CF6449600D52D23 /* Project object */;
+}

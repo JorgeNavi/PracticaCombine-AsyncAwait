@@ -6,6 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FC780CF52CF647DA00D52D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780CEB2CF647DA00D52D23 /* AppDelegate.swift */; };
+		FC780CF62CF647DA00D52D23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780CF22CF647DA00D52D23 /* SceneDelegate.swift */; };
+		FC780CF82CF647DA00D52D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC780CEC2CF647DA00D52D23 /* Assets.xcassets */; };
+		FC780CFA2CF647DA00D52D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC780CEF2CF647DA00D52D23 /* LaunchScreen.storyboard */; };
+		FC780D132CF64D9200D52D23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D102CF64D9200D52D23 /* LoginViewController.swift */; };
+		FC780D152CF64F1500D52D23 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D142CF64F1500D52D23 /* LoginView.swift */; };
+		FC780D172CF65C4E00D52D23 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D162CF65C4E00D52D23 /* AppState.swift */; };
+		FC780D192CF65D8500D52D23 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D182CF65D8500D52D23 /* LoginUseCase.swift */; };
+		FC780D1B2CF65DAC00D52D23 /* LoginRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D1A2CF65D9F00D52D23 /* LoginRepositoryProtocol.swift */; };
+		FC780D1D2CF65E3C00D52D23 /* LoginUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D1C2CF65E3300D52D23 /* LoginUseCaseProtocol.swift */; };
+		FC780D1F2CF65EA900D52D23 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D1E2CF65EA500D52D23 /* EndPoints.swift */; };
+		FC780D212CF65F2E00D52D23 /* HTTPResponseCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D202CF65F2E00D52D23 /* HTTPResponseCodes.swift */; };
+		FC780D232CF65F7E00D52D23 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */; };
+		FC780D262CF6602A00D52D23 /* ConstantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D252CF6602A00D52D23 /* ConstantsApp.swift */; };
+		FC780D282CF660E200D52D23 /* NetworkLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D272CF660E200D52D23 /* NetworkLogin.swift */; };
+		FC780D2B2CF663DE00D52D23 /* NetworkLoginFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D2A2CF663DE00D52D23 /* NetworkLoginFake.swift */; };
+		FC780D2D2CF6643E00D52D23 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */; };
+		FC780D2F2CF664B200D52D23 /* LoginRepositoryFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D2E2CF664B200D52D23 /* LoginRepositoryFake.swift */; };
+		FC780D322CF666A400D52D23 /* KCLibrarySwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC780D312CF666A400D52D23 /* KCLibrarySwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FC780CCE2CF6449700D52D23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,27 +49,28 @@
 		FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaCombineAsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC780CCD2CF6449700D52D23 /* PracticaCombineAsyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaCombineAsyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaCombineAsyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC780CEB2CF647DA00D52D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC780CEC2CF647DA00D52D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC780CED2CF647DA00D52D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC780CEE2CF647DA00D52D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC780CF22CF647DA00D52D23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC780D102CF64D9200D52D23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC780D142CF64F1500D52D23 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FC780D162CF65C4E00D52D23 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FC780D182CF65D8500D52D23 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		FC780D1A2CF65D9F00D52D23 /* LoginRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryProtocol.swift; sourceTree = "<group>"; };
+		FC780D1C2CF65E3300D52D23 /* LoginUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseProtocol.swift; sourceTree = "<group>"; };
+		FC780D1E2CF65EA500D52D23 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		FC780D202CF65F2E00D52D23 /* HTTPResponseCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponseCodes.swift; sourceTree = "<group>"; };
+		FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		FC780D252CF6602A00D52D23 /* ConstantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsApp.swift; sourceTree = "<group>"; };
+		FC780D272CF660E200D52D23 /* NetworkLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogin.swift; sourceTree = "<group>"; };
+		FC780D2A2CF663DE00D52D23 /* NetworkLoginFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoginFake.swift; sourceTree = "<group>"; };
+		FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		FC780D2E2CF664B200D52D23 /* LoginRepositoryFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryFake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FC780CDF2CF6449700D52D23 /* Exceptions for "PracticaCombineAsync" folder in "PracticaCombineAsync" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = FC780CB62CF6449600D52D23 /* PracticaCombineAsync */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC780CB92CF6449600D52D23 /* PracticaCombineAsync */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				FC780CDF2CF6449700D52D23 /* Exceptions for "PracticaCombineAsync" folder in "PracticaCombineAsync" target */,
-			);
-			path = PracticaCombineAsync;
-			sourceTree = "<group>";
-		};
 		FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PracticaCombineAsyncTests;
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC780D322CF666A400D52D23 /* KCLibrarySwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +112,7 @@
 		FC780CAE2CF6449600D52D23 = {
 			isa = PBXGroup;
 			children = (
-				FC780CB92CF6449600D52D23 /* PracticaCombineAsync */,
+				FC780CF42CF647DA00D52D23 /* PracticaCombineAsync */,
 				FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */,
 				FC780CDA2CF6449700D52D23 /* PracticaCombineAsyncUITests */,
 				FC780CB82CF6449600D52D23 /* Products */,
@@ -103,6 +127,176 @@
 				FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC780CF42CF647DA00D52D23 /* PracticaCombineAsync */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D292CF6637E00D52D23 /* Preview Content */,
+				FC780CFC2CF647E700D52D23 /* Presentation */,
+				FC780CFD2CF647F000D52D23 /* Domain */,
+				FC780CFE2CF6486600D52D23 /* Data */,
+				FC780CEB2CF647DA00D52D23 /* AppDelegate.swift */,
+				FC780CEC2CF647DA00D52D23 /* Assets.xcassets */,
+				FC780CED2CF647DA00D52D23 /* Info.plist */,
+				FC780CEF2CF647DA00D52D23 /* LaunchScreen.storyboard */,
+				FC780CF22CF647DA00D52D23 /* SceneDelegate.swift */,
+			);
+			path = PracticaCombineAsync;
+			sourceTree = "<group>";
+		};
+		FC780CFC2CF647E700D52D23 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D092CF64A7600D52D23 /* ViewModel */,
+				FC780D082CF64A6E00D52D23 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FC780CFD2CF647F000D52D23 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D072CF64A5700D52D23 /* Extensions */,
+				FC780D062CF64A4F00D52D23 /* UseCases */,
+				FC780D052CF64A4500D52D23 /* Entities */,
+				FC780D042CF64A3B00D52D23 /* Tools */,
+				FC780D032CF649EF00D52D23 /* Protocols */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FC780CFE2CF6486600D52D23 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D252CF6602A00D52D23 /* ConstantsApp.swift */,
+				FC780D012CF649D700D52D23 /* Repositories */,
+				FC780D002CF649D000D52D23 /* Network */,
+				FC780CFF2CF649CA00D52D23 /* Local */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FC780CFF2CF649CA00D52D23 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FC780D002CF649D000D52D23 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D022CF649E100D52D23 /* BaseNetwork */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FC780D012CF649D700D52D23 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FC780D022CF649E100D52D23 /* BaseNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D1E2CF65EA500D52D23 /* EndPoints.swift */,
+				FC780D202CF65F2E00D52D23 /* HTTPResponseCodes.swift */,
+				FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */,
+				FC780D272CF660E200D52D23 /* NetworkLogin.swift */,
+			);
+			path = BaseNetwork;
+			sourceTree = "<group>";
+		};
+		FC780D032CF649EF00D52D23 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D1C2CF65E3300D52D23 /* LoginUseCaseProtocol.swift */,
+				FC780D1A2CF65D9F00D52D23 /* LoginRepositoryProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FC780D042CF64A3B00D52D23 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FC780D052CF64A4500D52D23 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FC780D062CF64A4F00D52D23 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D182CF65D8500D52D23 /* LoginUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		FC780D072CF64A5700D52D23 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC780D082CF64A6E00D52D23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D0E2CF64AA000D52D23 /* Error */,
+				FC780D0D2CF64A9B00D52D23 /* Home */,
+				FC780D0C2CF64A9500D52D23 /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC780D092CF64A7600D52D23 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D162CF65C4E00D52D23 /* AppState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC780D0C2CF64A9500D52D23 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D102CF64D9200D52D23 /* LoginViewController.swift */,
+				FC780D142CF64F1500D52D23 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FC780D0D2CF64A9B00D52D23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC780D0E2CF64AA000D52D23 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		FC780D292CF6637E00D52D23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC780D2A2CF663DE00D52D23 /* NetworkLoginFake.swift */,
+				FC780D2E2CF664B200D52D23 /* LoginRepositoryFake.swift */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,11 +314,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				FC780CB92CF6449600D52D23 /* PracticaCombineAsync */,
-			);
 			name = PracticaCombineAsync;
 			packageProductDependencies = (
+				FC780D312CF666A400D52D23 /* KCLibrarySwift */,
 			);
 			productName = PracticaCombineAsync;
 			productReference = FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */;
@@ -208,6 +400,9 @@
 			);
 			mainGroup = FC780CAE2CF6449600D52D23;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FC780D302CF666A400D52D23 /* XCRemoteSwiftPackageReference "KCLibrarySwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FC780CB82CF6449600D52D23 /* Products */;
 			projectDirPath = "";
@@ -225,6 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC780CF82CF647DA00D52D23 /* Assets.xcassets in Resources */,
+				FC780CFA2CF647DA00D52D23 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +446,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC780D1B2CF65DAC00D52D23 /* LoginRepositoryProtocol.swift in Sources */,
+				FC780D1F2CF65EA900D52D23 /* EndPoints.swift in Sources */,
+				FC780D1D2CF65E3C00D52D23 /* LoginUseCaseProtocol.swift in Sources */,
+				FC780D132CF64D9200D52D23 /* LoginViewController.swift in Sources */,
+				FC780D2F2CF664B200D52D23 /* LoginRepositoryFake.swift in Sources */,
+				FC780D172CF65C4E00D52D23 /* AppState.swift in Sources */,
+				FC780D2D2CF6643E00D52D23 /* LoginRepository.swift in Sources */,
+				FC780CF52CF647DA00D52D23 /* AppDelegate.swift in Sources */,
+				FC780D152CF64F1500D52D23 /* LoginView.swift in Sources */,
+				FC780D262CF6602A00D52D23 /* ConstantsApp.swift in Sources */,
+				FC780D282CF660E200D52D23 /* NetworkLogin.swift in Sources */,
+				FC780D212CF65F2E00D52D23 /* HTTPResponseCodes.swift in Sources */,
+				FC780CF62CF647DA00D52D23 /* SceneDelegate.swift in Sources */,
+				FC780D192CF65D8500D52D23 /* LoginUseCase.swift in Sources */,
+				FC780D232CF65F7E00D52D23 /* HTTPMethods.swift in Sources */,
+				FC780D2B2CF663DE00D52D23 /* NetworkLoginFake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +494,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		FC780CEF2CF647DA00D52D23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC780CEE2CF647DA00D52D23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		FC780CE12CF6449700D52D23 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -289,14 +513,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "PracticaCombineAsync/Preview\\ Content";
 				DEVELOPMENT_TEAM = T5K323YN9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Practica Modulo Async/Reactive";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,9 +529,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,14 +546,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "PracticaCombineAsync/Preview\\ Content";
 				DEVELOPMENT_TEAM = T5K323YN9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Practica Modulo Async/Reactive";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,9 +562,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -569,6 +803,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC780D302CF666A400D52D23 /* XCRemoteSwiftPackageReference "KCLibrarySwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JorgeNavi/KCLibrarySwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC780D312CF666A400D52D23 /* KCLibrarySwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC780D302CF666A400D52D23 /* XCRemoteSwiftPackageReference "KCLibrarySwift" */;
+			productName = KCLibrarySwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC780CAF2CF6449600D52D23 /* Project object */;
 }

@@ -1,6 +1,15 @@
 {
-  "originHash" : "f0c3b99b7cd9a43b950d31b1750df41c3c5c6dc817801a2708fa1b77e2fa9976",
+  "originHash" : "35bbf051e478f5a7bffd36c18fcb4e70aaa243e9af1f728494c9cb2b16eca235",
   "pins" : [
+    {
+      "identity" : "combinecocoa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CombineCommunity/CombineCocoa",
+      "state" : {
+        "revision" : "7300c75ff9e072aa7fd0fccefcc88f74aae9bf56",
+        "version" : "0.4.1"
+      }
+    },
     {
       "identity" : "kclibraryswift",
       "kind" : "remoteSourceControl",

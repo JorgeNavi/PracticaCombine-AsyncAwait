@@ -21,7 +21,10 @@ class LoginView: UIView {
         textField.borderStyle = .roundedRect //estilo de borde redondeado
         textField.layer.cornerRadius = 10 //redondear las esquinas y su radio
         textField.layer.masksToBounds = true //Para que se vea el redondeado
+        textField.autocapitalizationType = .none //Para que no establezca mayusculas la primera letra
+        textField.autocorrectionType = .no
         textField.attributedPlaceholder = NSAttributedString(string: textField.placeholder!, attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray]) //le añadimos el color del texto en el placeholder
+        textField.placeholder = NSLocalizedString("Email", comment: "Email del usuario")//va a tener un string localizado (en el archivo localizable para los idiomas) con clave "Email", el comentario es para nosotros
         return textField
     }()
     
@@ -36,11 +39,12 @@ class LoginView: UIView {
         textField.layer.cornerRadius = 10 //redondear las esquinas y su radio
         textField.layer.masksToBounds = true //Para que se vea el redondeado
         textField.attributedPlaceholder = NSAttributedString(string: textField.placeholder!, attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray]) //le añadimos el color del texto en el placeholder
+        textField.placeholder = NSLocalizedString("Password", comment: "Password del usuario")
         return textField
     }()
     
     public let loginButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setTitle("Login", for: .normal)
         button.backgroundColor = .blue.withAlphaComponent(0.9)
         button.setTitleColor(.white, for: .normal)

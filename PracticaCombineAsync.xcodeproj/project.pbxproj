@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC4261B82CF72B950076BA94 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FC4261B72CF72B950076BA94 /* CombineCocoa */; };
+		FC4261BB2CF730CD0076BA94 /* ErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4261BA2CF730CD0076BA94 /* ErrorViewController.xib */; };
+		FC4261BC2CF730CD0076BA94 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4261B92CF730CD0076BA94 /* ErrorViewController.swift */; };
+		FC4261BF2CF7352B0076BA94 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4261BE2CF7352B0076BA94 /* HomeViewController.xib */; };
+		FC4261C02CF7352B0076BA94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4261BD2CF7352B0076BA94 /* HomeViewController.swift */; };
+		FC4261C32CF73C260076BA94 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4261C12CF73C260076BA94 /* Localizable.strings */; };
+		FC4261C42CF73C260076BA94 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4261C12CF73C260076BA94 /* Localizable.strings */; };
+		FC4261CA2CF76FA40076BA94 /* NetworkLoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4261C92CF76FA40076BA94 /* NetworkLoginProtocol.swift */; };
 		FC780CF52CF647DA00D52D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780CEB2CF647DA00D52D23 /* AppDelegate.swift */; };
 		FC780CF62CF647DA00D52D23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780CF22CF647DA00D52D23 /* SceneDelegate.swift */; };
 		FC780CF82CF647DA00D52D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC780CEC2CF647DA00D52D23 /* Assets.xcassets */; };
@@ -21,10 +29,7 @@
 		FC780D212CF65F2E00D52D23 /* HTTPResponseCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D202CF65F2E00D52D23 /* HTTPResponseCodes.swift */; };
 		FC780D232CF65F7E00D52D23 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */; };
 		FC780D262CF6602A00D52D23 /* ConstantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D252CF6602A00D52D23 /* ConstantsApp.swift */; };
-		FC780D282CF660E200D52D23 /* NetworkLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D272CF660E200D52D23 /* NetworkLogin.swift */; };
-		FC780D2B2CF663DE00D52D23 /* NetworkLoginFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D2A2CF663DE00D52D23 /* NetworkLoginFake.swift */; };
 		FC780D2D2CF6643E00D52D23 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */; };
-		FC780D2F2CF664B200D52D23 /* LoginRepositoryFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D2E2CF664B200D52D23 /* LoginRepositoryFake.swift */; };
 		FC780D322CF666A400D52D23 /* KCLibrarySwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC780D312CF666A400D52D23 /* KCLibrarySwift */; };
 /* End PBXBuildFile section */
 
@@ -36,19 +41,19 @@
 			remoteGlobalIDString = FC780CB62CF6449600D52D23;
 			remoteInfo = PracticaCombineAsync;
 		};
-		FC780CD82CF6449700D52D23 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC780CAF2CF6449600D52D23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC780CB62CF6449600D52D23;
-			remoteInfo = PracticaCombineAsync;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC4261B92CF730CD0076BA94 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		FC4261BA2CF730CD0076BA94 /* ErrorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorViewController.xib; sourceTree = "<group>"; };
+		FC4261BD2CF7352B0076BA94 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC4261BE2CF7352B0076BA94 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FC4261C22CF73C260076BA94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FC4261C52CF73CEE0076BA94 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FC4261C62CF73CF60076BA94 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FC4261C92CF76FA40076BA94 /* NetworkLoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoginProtocol.swift; sourceTree = "<group>"; };
 		FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaCombineAsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC780CCD2CF6449700D52D23 /* PracticaCombineAsyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaCombineAsyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaCombineAsyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC780CEB2CF647DA00D52D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC780CEC2CF647DA00D52D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC780CED2CF647DA00D52D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,21 +69,13 @@
 		FC780D202CF65F2E00D52D23 /* HTTPResponseCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponseCodes.swift; sourceTree = "<group>"; };
 		FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		FC780D252CF6602A00D52D23 /* ConstantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsApp.swift; sourceTree = "<group>"; };
-		FC780D272CF660E200D52D23 /* NetworkLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogin.swift; sourceTree = "<group>"; };
-		FC780D2A2CF663DE00D52D23 /* NetworkLoginFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoginFake.swift; sourceTree = "<group>"; };
 		FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
-		FC780D2E2CF664B200D52D23 /* LoginRepositoryFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryFake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PracticaCombineAsyncTests;
-			sourceTree = "<group>";
-		};
-		FC780CDA2CF6449700D52D23 /* PracticaCombineAsyncUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PracticaCombineAsyncUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,18 +85,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4261B82CF72B950076BA94 /* CombineCocoa in Frameworks */,
 				FC780D322CF666A400D52D23 /* KCLibrarySwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FC780CCA2CF6449700D52D23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC780CD42CF6449700D52D23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,9 +103,9 @@
 		FC780CAE2CF6449600D52D23 = {
 			isa = PBXGroup;
 			children = (
+				FC4261C12CF73C260076BA94 /* Localizable.strings */,
 				FC780CF42CF647DA00D52D23 /* PracticaCombineAsync */,
 				FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */,
-				FC780CDA2CF6449700D52D23 /* PracticaCombineAsyncUITests */,
 				FC780CB82CF6449600D52D23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,7 +115,6 @@
 			children = (
 				FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */,
 				FC780CCD2CF6449700D52D23 /* PracticaCombineAsyncTests.xctest */,
-				FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,10 +193,10 @@
 		FC780D022CF649E100D52D23 /* BaseNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				FC4261C92CF76FA40076BA94 /* NetworkLoginProtocol.swift */,
 				FC780D1E2CF65EA500D52D23 /* EndPoints.swift */,
 				FC780D202CF65F2E00D52D23 /* HTTPResponseCodes.swift */,
 				FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */,
-				FC780D272CF660E200D52D23 /* NetworkLogin.swift */,
 			);
 			path = BaseNetwork;
 			sourceTree = "<group>";
@@ -279,6 +269,8 @@
 		FC780D0D2CF64A9B00D52D23 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FC4261BD2CF7352B0076BA94 /* HomeViewController.swift */,
+				FC4261BE2CF7352B0076BA94 /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -286,6 +278,8 @@
 		FC780D0E2CF64AA000D52D23 /* Error */ = {
 			isa = PBXGroup;
 			children = (
+				FC4261B92CF730CD0076BA94 /* ErrorViewController.swift */,
+				FC4261BA2CF730CD0076BA94 /* ErrorViewController.xib */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -293,8 +287,6 @@
 		FC780D292CF6637E00D52D23 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FC780D2A2CF663DE00D52D23 /* NetworkLoginFake.swift */,
-				FC780D2E2CF664B200D52D23 /* LoginRepositoryFake.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -317,6 +309,7 @@
 			name = PracticaCombineAsync;
 			packageProductDependencies = (
 				FC780D312CF666A400D52D23 /* KCLibrarySwift */,
+				FC4261B72CF72B950076BA94 /* CombineCocoa */,
 			);
 			productName = PracticaCombineAsync;
 			productReference = FC780CB72CF6449600D52D23 /* PracticaCombineAsync.app */;
@@ -345,29 +338,6 @@
 			productReference = FC780CCD2CF6449700D52D23 /* PracticaCombineAsyncTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FC780CD62CF6449700D52D23 /* PracticaCombineAsyncUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC780CE82CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsyncUITests" */;
-			buildPhases = (
-				FC780CD32CF6449700D52D23 /* Sources */,
-				FC780CD42CF6449700D52D23 /* Frameworks */,
-				FC780CD52CF6449700D52D23 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC780CD92CF6449700D52D23 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FC780CDA2CF6449700D52D23 /* PracticaCombineAsyncUITests */,
-			);
-			name = PracticaCombineAsyncUITests;
-			packageProductDependencies = (
-			);
-			productName = PracticaCombineAsyncUITests;
-			productReference = FC780CD72CF6449700D52D23 /* PracticaCombineAsyncUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -385,10 +355,6 @@
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = FC780CB62CF6449600D52D23;
 					};
-					FC780CD62CF6449700D52D23 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = FC780CB62CF6449600D52D23;
-					};
 				};
 			};
 			buildConfigurationList = FC780CB22CF6449600D52D23 /* Build configuration list for PBXProject "PracticaCombineAsync" */;
@@ -397,11 +363,13 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = FC780CAE2CF6449600D52D23;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				FC780D302CF666A400D52D23 /* XCRemoteSwiftPackageReference "KCLibrarySwift" */,
+				FC4261B62CF72B950076BA94 /* XCRemoteSwiftPackageReference "CombineCocoa" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FC780CB82CF6449600D52D23 /* Products */;
@@ -410,7 +378,6 @@
 			targets = (
 				FC780CB62CF6449600D52D23 /* PracticaCombineAsync */,
 				FC780CCC2CF6449700D52D23 /* PracticaCombineAsyncTests */,
-				FC780CD62CF6449700D52D23 /* PracticaCombineAsyncUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -420,8 +387,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4261C42CF73C260076BA94 /* Localizable.strings in Resources */,
+				FC4261BB2CF730CD0076BA94 /* ErrorViewController.xib in Resources */,
 				FC780CF82CF647DA00D52D23 /* Assets.xcassets in Resources */,
 				FC780CFA2CF647DA00D52D23 /* LaunchScreen.storyboard in Resources */,
+				FC4261BF2CF7352B0076BA94 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,13 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC780CD52CF6449700D52D23 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FC4261C32CF73C260076BA94 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,29 +414,22 @@
 				FC780D1F2CF65EA900D52D23 /* EndPoints.swift in Sources */,
 				FC780D1D2CF65E3C00D52D23 /* LoginUseCaseProtocol.swift in Sources */,
 				FC780D132CF64D9200D52D23 /* LoginViewController.swift in Sources */,
-				FC780D2F2CF664B200D52D23 /* LoginRepositoryFake.swift in Sources */,
+				FC4261C02CF7352B0076BA94 /* HomeViewController.swift in Sources */,
 				FC780D172CF65C4E00D52D23 /* AppState.swift in Sources */,
 				FC780D2D2CF6643E00D52D23 /* LoginRepository.swift in Sources */,
 				FC780CF52CF647DA00D52D23 /* AppDelegate.swift in Sources */,
 				FC780D152CF64F1500D52D23 /* LoginView.swift in Sources */,
 				FC780D262CF6602A00D52D23 /* ConstantsApp.swift in Sources */,
-				FC780D282CF660E200D52D23 /* NetworkLogin.swift in Sources */,
+				FC4261CA2CF76FA40076BA94 /* NetworkLoginProtocol.swift in Sources */,
 				FC780D212CF65F2E00D52D23 /* HTTPResponseCodes.swift in Sources */,
 				FC780CF62CF647DA00D52D23 /* SceneDelegate.swift in Sources */,
 				FC780D192CF65D8500D52D23 /* LoginUseCase.swift in Sources */,
 				FC780D232CF65F7E00D52D23 /* HTTPMethods.swift in Sources */,
-				FC780D2B2CF663DE00D52D23 /* NetworkLoginFake.swift in Sources */,
+				FC4261BC2CF730CD0076BA94 /* ErrorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FC780CC92CF6449700D52D23 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC780CD32CF6449700D52D23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -487,18 +444,23 @@
 			target = FC780CB62CF6449600D52D23 /* PracticaCombineAsync */;
 			targetProxy = FC780CCE2CF6449700D52D23 /* PBXContainerItemProxy */;
 		};
-		FC780CD92CF6449700D52D23 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC780CB62CF6449600D52D23 /* PracticaCombineAsync */;
-			targetProxy = FC780CD82CF6449700D52D23 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FC4261C12CF73C260076BA94 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4261C22CF73C260076BA94 /* en */,
+				FC4261C62CF73CF60076BA94 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		FC780CEF2CF647DA00D52D23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FC780CEE2CF647DA00D52D23 /* Base */,
+				FC4261C52CF73CEE0076BA94 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -577,6 +539,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -640,6 +603,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -729,40 +693,6 @@
 			};
 			name = Release;
 		};
-		FC780CE92CF6449700D52D23 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T5K323YN9M;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsyncUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PracticaCombineAsync;
-			};
-			name = Debug;
-		};
-		FC780CEA2CF6449700D52D23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T5K323YN9M;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.JorgeNavi.PracticaCombineAsyncUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PracticaCombineAsync;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -793,18 +723,17 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC780CE82CF6449700D52D23 /* Build configuration list for PBXNativeTarget "PracticaCombineAsyncUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC780CE92CF6449700D52D23 /* Debug */,
-				FC780CEA2CF6449700D52D23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		FC4261B62CF72B950076BA94 /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
 		FC780D302CF666A400D52D23 /* XCRemoteSwiftPackageReference "KCLibrarySwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/JorgeNavi/KCLibrarySwift.git";
@@ -816,6 +745,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FC4261B72CF72B950076BA94 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC4261B62CF72B950076BA94 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
 		FC780D312CF666A400D52D23 /* KCLibrarySwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FC780D302CF666A400D52D23 /* XCRemoteSwiftPackageReference "KCLibrarySwift" */;

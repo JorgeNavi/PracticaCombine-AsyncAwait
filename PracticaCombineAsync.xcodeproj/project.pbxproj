@@ -185,10 +185,8 @@
 		FC780CFD2CF647F000D52D23 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				FC780D072CF64A5700D52D23 /* Extensions */,
 				FC780D062CF64A4F00D52D23 /* UseCases */,
 				FC780D052CF64A4500D52D23 /* Entities */,
-				FC780D042CF64A3B00D52D23 /* Tools */,
 				FC780D032CF649EF00D52D23 /* Protocols */,
 			);
 			path = Domain;
@@ -200,16 +198,8 @@
 				FC780D252CF6602A00D52D23 /* ConstantsApp.swift */,
 				FC780D012CF649D700D52D23 /* Repositories */,
 				FC780D002CF649D000D52D23 /* Network */,
-				FC780CFF2CF649CA00D52D23 /* Local */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		FC780CFF2CF649CA00D52D23 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Local;
 			sourceTree = "<group>";
 		};
 		FC780D002CF649D000D52D23 /* Network */ = {
@@ -254,13 +244,6 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		FC780D042CF64A3B00D52D23 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		FC780D052CF64A4500D52D23 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,13 +261,6 @@
 				FCFA3BBB2CF8975B007A378F /* TransformationsUseCase.swift */,
 			);
 			path = UseCases;
-			sourceTree = "<group>";
-		};
-		FC780D072CF64A5700D52D23 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FC780D082CF64A6E00D52D23 /* Views */ = {
@@ -567,7 +543,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "PracticaCombineAsync/Preview\\ Content";
 				DEVELOPMENT_TEAM = T5K323YN9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;
@@ -600,7 +575,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "PracticaCombineAsync/Preview\\ Content";
 				DEVELOPMENT_TEAM = T5K323YN9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;

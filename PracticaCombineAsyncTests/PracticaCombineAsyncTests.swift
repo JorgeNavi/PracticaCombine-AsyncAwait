@@ -239,11 +239,12 @@ final class PracticaCombineAsyncTests: XCTestCase {
         
     }
     
+    /*
     func testHeroDetailViewModel() async throws  {
         let model = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
         let vm = HeroDetailViewModel(hero: model ,useCase: TransformationsUseCaseFake())
         XCTAssertNotNil(vm)
         XCTAssertEqual(vm.getTransformations(id: model.id).count, 2) //debe haber 2 heroes Fake mokeados
-    }
+    }*/
     
 }

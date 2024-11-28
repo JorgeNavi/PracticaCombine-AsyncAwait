@@ -48,6 +48,8 @@
 		FCFA3BBE2CF89AEE007A378F /* HeroDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3BBD2CF89AEE007A378F /* HeroDetailViewModel.swift */; };
 		FCFA3BC22CF8A041007A378F /* HeroeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3BC02CF8A041007A378F /* HeroeDetailViewController.swift */; };
 		FCFA3BC32CF8A041007A378F /* HeroeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFA3BC12CF8A041007A378F /* HeroeDetailViewController.xib */; };
+		FCFA3BC62CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3BC42CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift */; };
+		FCFA3BC72CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFA3BC52CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		FCFA3BBD2CF89AEE007A378F /* HeroDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewModel.swift; sourceTree = "<group>"; };
 		FCFA3BC02CF8A041007A378F /* HeroeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeDetailViewController.swift; sourceTree = "<group>"; };
 		FCFA3BC12CF8A041007A378F /* HeroeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroeDetailViewController.xib; sourceTree = "<group>"; };
+		FCFA3BC42CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCFA3BC52CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroeDetailCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -318,7 +322,7 @@
 		FC780D0D2CF64A9B00D52D23 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FCFA3BA72CF87BC4007A378F /* Cell */,
+				FCFA3BA72CF87BC4007A378F /* Cells */,
 				FCFA3B9D2CF8697A007A378F /* HerosTableViewController.swift */,
 			);
 			path = Home;
@@ -340,13 +344,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FCFA3BA72CF87BC4007A378F /* Cell */ = {
+		FCFA3BA72CF87BC4007A378F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				FCFA3BA82CF87C16007A378F /* HerosTableViewCell.swift */,
 				FCFA3BA92CF87C16007A378F /* HerosTableViewCell.xib */,
+				FCFA3BC42CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift */,
+				FCFA3BC52CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib */,
 			);
-			path = Cell;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		FCFA3BAC2CF889BB007A378F /* Resources */ = {
@@ -467,6 +473,7 @@
 				FCFA3BAE2CF889DD007A378F /* Heros.json in Resources */,
 				FC4261BB2CF730CD0076BA94 /* ErrorViewController.xib in Resources */,
 				FC780CF82CF647DA00D52D23 /* Assets.xcassets in Resources */,
+				FCFA3BC72CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib in Resources */,
 				FC780CFA2CF647DA00D52D23 /* LaunchScreen.storyboard in Resources */,
 				FCFA3BC32CF8A041007A378F /* HeroeDetailViewController.xib in Resources */,
 			);
@@ -490,6 +497,7 @@
 				FCDE1B4D2CF77A4E001036A1 /* HerosModel.swift in Sources */,
 				FCDE1B552CF78144001036A1 /* HerosRepository.swift in Sources */,
 				FC780D1B2CF65DAC00D52D23 /* LoginRepositoryProtocol.swift in Sources */,
+				FCFA3BC62CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift in Sources */,
 				FCFA3BC22CF8A041007A378F /* HeroeDetailViewController.swift in Sources */,
 				FCDE1B592CF782B2001036A1 /* HerosUseCase.swift in Sources */,
 				FC780D1F2CF65EA900D52D23 /* EndPoints.swift in Sources */,

@@ -67,6 +67,9 @@ class HerosTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //Extract the model
         let hero = self.viewModel.herosData[indexPath.row]
+        let vm = HeroDetailViewModel(hero: hero)
+        let vc = HeroeDetailViewController(viewModel: vm)
+        self.show(vc, sender: self)
         
         NSLog("Hero tap => \(hero.name)")
     }

@@ -239,12 +239,88 @@ final class PracticaCombineAsyncTests: XCTestCase {
         
     }
     
-    /*
     func testHeroDetailViewModel() async throws  {
         let model = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
-        let vm = HeroDetailViewModel(hero: model ,useCase: TransformationsUseCaseFake())
+        let vm = HeroDetailViewModel(hero: model, useCase: TransformationsUseCaseFake())
         XCTAssertNotNil(vm)
-        XCTAssertEqual(vm.getTransformations(id: model.id).count, 2) //debe haber 2 heroes Fake mokeados
-    }*/
+        XCTAssertEqual(vm.transformations.count, 2) //debe haber 2 heroes Fake mokeados
+    }
+    
+    func testTransformationsUseCase() async throws  {
+        let useCase = TransformationsUseCase(repo: TransformationsRepositoryFake())
+        XCTAssertNotNil(useCase)
+        
+        let data = await useCase.getTransformations(id: "")
+        XCTAssertNotNil(data)
+        XCTAssertEqual(data.count, 2)
+    }
+    
+    func testTransformations_Combine() async throws  {
+        let model = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
+        var suscriptor = Set<AnyCancellable>()
+        let exp = self.expectation(description: "Transformations get")
+        
+        let vm = HeroDetailViewModel(hero: model, useCase: TransformationsUseCaseFake())
+        XCTAssertNotNil(vm)
+        
+        vm.$transformations
+            .sink { completion in
+                switch completion{
+                    
+                case .finished:
+                    print("finalizado")
+                }
+            } receiveValue: { data in
+      
+                if data.count == 2 {
+                    exp.fulfill()
+                }
+            }
+            .store(in: &suscriptor)
+      
+        
+        await self.waitForExpectations(timeout: 10)
+    }
+    
+    func testTransformations_Data() async throws  {
+        let network = NetworkTransformationsFake()
+        XCTAssertNotNil(network)
+        let repo = TransformationsRepository(network: network)
+        XCTAssertNotNil(repo)
+        
+        let repo2 = TransformationsRepositoryFake()
+        XCTAssertNotNil(repo2)
+        
+        let data = await repo.getTransformations(id: "")
+        XCTAssertNotNil(data)
+        XCTAssertEqual(data.count, 2)
+        
+        
+        let data2 = await repo2.getTransformations(id: "")
+        XCTAssertNotNil(data2)
+        XCTAssertEqual(data2.count, 2)
+    }
+    
+    func testTransformation_Domain() async throws  {
+       //Models
+        let model = TransformationsModel(id: UUID(), name: "transforName", description: "des", photo: "url")
+        XCTAssertNotNil(model)
+        XCTAssertEqual(model.name, "transforName")
+        
+        let requestModel = TransformationsModelRequest(id: "")
+        XCTAssertNotNil(requestModel)
+        XCTAssertEqual(requestModel.id, "")
+    }
+    
+    func testHeroDetail_Presentation() async throws  {
+        let model = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
+        let vm = HeroDetailViewModel(hero: model, useCase: TransformationsUseCaseFake())
+        XCTAssertNotNil(vm)
+        
+        let view =  await HeroeDetailViewController(viewModel: vm)
+        XCTAssertNotNil(view)
+        
+    }
+    
     
 }

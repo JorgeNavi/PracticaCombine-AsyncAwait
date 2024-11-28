@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "0C38D78C-3D49-4152-BF2E-92C41A26F74B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PracticaCombineAsync.xcodeproj",
+      "identifier" : "FC780CB62CF6449600D52D23",
+      "name" : "PracticaCombineAsync"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PracticaCombineAsync.xcodeproj",
+        "identifier" : "FC780CCC2CF6449700D52D23",
+        "name" : "PracticaCombineAsyncTests"
+      }
+    }
+  ],
+  "version" : 1
+}

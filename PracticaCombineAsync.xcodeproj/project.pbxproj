@@ -87,6 +87,7 @@
 		FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		FC780D252CF6602A00D52D23 /* ConstantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsApp.swift; sourceTree = "<group>"; };
 		FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		FC7AEE7C2CF8D9C600DA99F2 /* PracticaCombineAsync.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PracticaCombineAsync.xctestplan; sourceTree = "<group>"; };
 		FCDE1B4C2CF77A45001036A1 /* HerosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosModel.swift; sourceTree = "<group>"; };
 		FCDE1B4E2CF77C8D001036A1 /* HerosRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosRepositoryProtocol.swift; sourceTree = "<group>"; };
 		FCDE1B502CF77D19001036A1 /* NetworkHeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHeros.swift; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 		FC780CAE2CF6449600D52D23 = {
 			isa = PBXGroup;
 			children = (
+				FC7AEE7C2CF8D9C600DA99F2 /* PracticaCombineAsync.xctestplan */,
 				FC4261C12CF73C260076BA94 /* Localizable.strings */,
 				FC780CF42CF647DA00D52D23 /* PracticaCombineAsync */,
 				FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */,

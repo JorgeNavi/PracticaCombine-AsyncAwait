@@ -92,5 +92,7 @@ class HeroeDetailViewController: UIViewController, UICollectionViewDataSource, U
         let transformation = viewModel.transformations[indexPath.item]
         print("Selected transformation: \(transformation.name)")
     }
+    
+    
 }
 

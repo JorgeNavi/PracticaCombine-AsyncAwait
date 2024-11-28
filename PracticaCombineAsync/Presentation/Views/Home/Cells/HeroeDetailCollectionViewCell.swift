@@ -15,9 +15,6 @@ class HeroeDetailCollectionViewCell: UICollectionViewCell {
         // Cargar la imagen de manera remota
         if let url = URL(string: transformation.photo) {
             transformationImageView.loadImageRemote(url: url)
-        } else {
-            // Opcional: Establecer una imagen de respaldo si la URL no es válida
-            transformationImageView.image = UIImage(named: "placeholder")
         }
     }
 }

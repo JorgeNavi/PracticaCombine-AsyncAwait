@@ -30,7 +30,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 case .success:
                     DispatchQueue.main.async {
                         print("Vamos al home")
-                        nav = UINavigationController(rootViewController: HomeViewController(appState: self.appState))
+                        nav = UINavigationController(rootViewController: HerosTableViewController(appState: self.appState, viewModel: HerosViewModel()))
                         self.window!.rootViewController = nav
                         self.window!.makeKeyAndVisible()
                     }

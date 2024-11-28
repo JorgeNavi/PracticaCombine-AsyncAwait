@@ -105,17 +105,18 @@ final class PracticaCombineAsyncTests: XCTestCase {
         self.waitForExpectations(timeout: 10)
     }
     
-    /*
+    
     func testUIErrorView() async throws  {
 
         let appStateVM = AppState(loginUseCase: LoginUseCaseFake())
         XCTAssertNotNil(appStateVM)
 
-        appStateVM.statusLogin = .error
+        appStateVM.loginStatus = .error
         
         let vc = await ErrorViewController(appState: appStateVM, error: "Error Testing")
         XCTAssertNotNil(vc)
     }
+    
     
     func testUILoginView()  throws  {
         XCTAssertNoThrow(LoginView())
@@ -141,24 +142,26 @@ final class PracticaCombineAsyncTests: XCTestCase {
        XCTAssertNotNil(View2)
         XCTAssertNoThrow(View2.loadView()) //generamos la vista
         XCTAssertNotNil(View2.loginButton)
-        XCTAssertNotNil(View2.emailTextfield)
+        XCTAssertNotNil(View2.emailTextField)
         XCTAssertNotNil(View2.logo)
-        XCTAssertNotNil(View2.passwordTextfield)
+        XCTAssertNotNil(View2.passwordTextField)
         
         //el binding
         XCTAssertNoThrow(View2.bindingUI())
         
-        View2.emailTextfield?.text = "Hola"
+        View2.emailTextField?.text = "Hola"
         
         //el boton debe estar desactivado
-        XCTAssertEqual(View2.emailTextfield?.text, "Hola")
+        XCTAssertEqual(View2.emailTextField?.text, "Hola")
     }
+    
     
     func testHeroiewViewModel() async throws  {
         let vm = HerosViewModel(useCase: HeroUseCaseFake())
         XCTAssertNotNil(vm)
         XCTAssertEqual(vm.herosData.count, 2) //debe haber 2 heroes Fake mokeados
     }
+    
     
     func testHerosUseCase() async throws  {
        let caseUser = HeroUseCase(repo: HerosRepositoryFake())
@@ -168,6 +171,7 @@ final class PracticaCombineAsyncTests: XCTestCase {
         XCTAssertNotNil(data)
         XCTAssertEqual(data.count, 2)
     }
+    
     
     func testHeros_Combine() async throws  {
         var suscriptor = Set<AnyCancellable>()
@@ -234,5 +238,5 @@ final class PracticaCombineAsyncTests: XCTestCase {
         XCTAssertNotNil(view)
         
     }
-    }*/
+    
 }

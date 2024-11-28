@@ -12,7 +12,7 @@ class LoginViewController: UIViewController {
     var emailTextField: UITextField?
     var passwordTextField: UITextField?
     private var user: String = ""
-    private var password: String = ""
+    private var pass: String = ""
     private var subscriptions = Set<AnyCancellable>()
     
     init(appState: AppState) {
@@ -30,15 +30,15 @@ class LoginViewController: UIViewController {
     }
     
     override func loadView() {
-        let LoginView = LoginView()
-        logo = LoginView.getLogoImageView()
-        loginButton = LoginView.getLoginButtonView()
-        emailTextField = LoginView.getEmailView()
-        passwordTextField = LoginView.getPasswordView()
-        view = LoginView
+        let loginView = LoginView()
+        logo = loginView.getLogoImageView()
+        loginButton = loginView.getLoginButtonView()
+        emailTextField = loginView.getEmailView()
+        passwordTextField = loginView.getPasswordView()
+        view = loginView
     }
     
-    private func bindingUI() {
+    func bindingUI() {
         if let emailTextField = self.emailTextField {
             emailTextField.textPublisher
                 .receive(on: DispatchQueue.main)
@@ -59,12 +59,23 @@ class LoginViewController: UIViewController {
                 .store(in: &subscriptions)
         }
         
+        if let passwordTextfield = self.passwordTextField {
+            passwordTextfield.textPublisher
+                .receive(on: DispatchQueue.main)
+                .sink(receiveValue: { [weak self] data in
+                    if let pass = data {
+                        print("Text pass: \(pass)")
+                        self?.pass = pass
+                    }
+                })
+                .store(in: &subscriptions)
+        }
         if let button = self.loginButton {
             button.tapPublisher
                 .sink(receiveValue: { [weak self] _ in
                     if let user = self?.user,
-                       let pass = self?.password {
-                        self?.appState?.loginApp(user: user, password: pass)
+                       let pass = self?.pass {
+                        self?.appState?.loginApp(user: user, pass: pass)
                     }
                 }).store(in: &subscriptions)
         }

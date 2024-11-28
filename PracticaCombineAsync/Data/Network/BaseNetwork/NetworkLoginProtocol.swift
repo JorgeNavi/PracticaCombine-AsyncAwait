@@ -1,4 +1,3 @@
-
 import Foundation
 
 protocol NetworkLoginProtocol {
@@ -38,3 +37,4 @@ final class NetworkLoginFake: NetworkLoginProtocol {
         return UUID().uuidString
     }
 }
+

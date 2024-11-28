@@ -10,8 +10,6 @@
 		FC4261B82CF72B950076BA94 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FC4261B72CF72B950076BA94 /* CombineCocoa */; };
 		FC4261BB2CF730CD0076BA94 /* ErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4261BA2CF730CD0076BA94 /* ErrorViewController.xib */; };
 		FC4261BC2CF730CD0076BA94 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4261B92CF730CD0076BA94 /* ErrorViewController.swift */; };
-		FC4261BF2CF7352B0076BA94 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4261BE2CF7352B0076BA94 /* HomeViewController.xib */; };
-		FC4261C02CF7352B0076BA94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4261BD2CF7352B0076BA94 /* HomeViewController.swift */; };
 		FC4261C32CF73C260076BA94 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4261C12CF73C260076BA94 /* Localizable.strings */; };
 		FC4261C42CF73C260076BA94 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4261C12CF73C260076BA94 /* Localizable.strings */; };
 		FC4261CA2CF76FA40076BA94 /* NetworkLoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4261C92CF76FA40076BA94 /* NetworkLoginProtocol.swift */; };
@@ -36,6 +34,12 @@
 		FCDE1B512CF77D19001036A1 /* NetworkHeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE1B502CF77D19001036A1 /* NetworkHeros.swift */; };
 		FCDE1B552CF78144001036A1 /* HerosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE1B542CF78144001036A1 /* HerosRepository.swift */; };
 		FCDE1B592CF782B2001036A1 /* HerosUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE1B582CF782B2001036A1 /* HerosUseCase.swift */; };
+		FCFA3B9C2CF8684A007A378F /* HerosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3B9B2CF8684A007A378F /* HerosViewModel.swift */; };
+		FCFA3B9E2CF8697A007A378F /* HerosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3B9D2CF8697A007A378F /* HerosTableViewController.swift */; };
+		FCFA3BA62CF87B7F007A378F /* UIImage&Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3BA52CF87B77007A378F /* UIImage&Extensions.swift */; };
+		FCFA3BAA2CF87C16007A378F /* HerosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA3BA82CF87C16007A378F /* HerosTableViewCell.swift */; };
+		FCFA3BAB2CF87C16007A378F /* HerosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFA3BA92CF87C16007A378F /* HerosTableViewCell.xib */; };
+		FCFA3BAE2CF889DD007A378F /* Heros.json in Resources */ = {isa = PBXBuildFile; fileRef = FCFA3BAD2CF889DD007A378F /* Heros.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +55,6 @@
 /* Begin PBXFileReference section */
 		FC4261B92CF730CD0076BA94 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		FC4261BA2CF730CD0076BA94 /* ErrorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorViewController.xib; sourceTree = "<group>"; };
-		FC4261BD2CF7352B0076BA94 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		FC4261BE2CF7352B0076BA94 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		FC4261C22CF73C260076BA94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FC4261C52CF73CEE0076BA94 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		FC4261C62CF73CF60076BA94 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -80,6 +82,12 @@
 		FCDE1B502CF77D19001036A1 /* NetworkHeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHeros.swift; sourceTree = "<group>"; };
 		FCDE1B542CF78144001036A1 /* HerosRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosRepository.swift; sourceTree = "<group>"; };
 		FCDE1B582CF782B2001036A1 /* HerosUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosUseCase.swift; sourceTree = "<group>"; };
+		FCFA3B9B2CF8684A007A378F /* HerosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosViewModel.swift; sourceTree = "<group>"; };
+		FCFA3B9D2CF8697A007A378F /* HerosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosTableViewController.swift; sourceTree = "<group>"; };
+		FCFA3BA52CF87B77007A378F /* UIImage&Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage&Extensions.swift"; sourceTree = "<group>"; };
+		FCFA3BA82CF87C16007A378F /* HerosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosTableViewCell.swift; sourceTree = "<group>"; };
+		FCFA3BA92CF87C16007A378F /* HerosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HerosTableViewCell.xib; sourceTree = "<group>"; };
+		FCFA3BAD2CF889DD007A378F /* Heros.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Heros.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -132,6 +140,7 @@
 		FC780CF42CF647DA00D52D23 /* PracticaCombineAsync */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA3BAC2CF889BB007A378F /* Resources */,
 				FC780D292CF6637E00D52D23 /* Preview Content */,
 				FC780CFC2CF647E700D52D23 /* Presentation */,
 				FC780CFD2CF647F000D52D23 /* Domain */,
@@ -257,6 +266,7 @@
 		FC780D082CF64A6E00D52D23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA3BA52CF87B77007A378F /* UIImage&Extensions.swift */,
 				FC780D0E2CF64AA000D52D23 /* Error */,
 				FC780D0D2CF64A9B00D52D23 /* Home */,
 				FC780D0C2CF64A9500D52D23 /* Login */,
@@ -267,6 +277,7 @@
 		FC780D092CF64A7600D52D23 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA3B9B2CF8684A007A378F /* HerosViewModel.swift */,
 				FC780D162CF65C4E00D52D23 /* AppState.swift */,
 			);
 			path = ViewModel;
@@ -284,8 +295,8 @@
 		FC780D0D2CF64A9B00D52D23 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FC4261BD2CF7352B0076BA94 /* HomeViewController.swift */,
-				FC4261BE2CF7352B0076BA94 /* HomeViewController.xib */,
+				FCFA3BA72CF87BC4007A378F /* Cell */,
+				FCFA3B9D2CF8697A007A378F /* HerosTableViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -304,6 +315,23 @@
 			children = (
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCFA3BA72CF87BC4007A378F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA3BA82CF87C16007A378F /* HerosTableViewCell.swift */,
+				FCFA3BA92CF87C16007A378F /* HerosTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FCFA3BAC2CF889BB007A378F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA3BAD2CF889DD007A378F /* Heros.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,10 +431,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4261C42CF73C260076BA94 /* Localizable.strings in Resources */,
+				FCFA3BAB2CF87C16007A378F /* HerosTableViewCell.xib in Resources */,
+				FCFA3BAE2CF889DD007A378F /* Heros.json in Resources */,
 				FC4261BB2CF730CD0076BA94 /* ErrorViewController.xib in Resources */,
 				FC780CF82CF647DA00D52D23 /* Assets.xcassets in Resources */,
 				FC780CFA2CF647DA00D52D23 /* LaunchScreen.storyboard in Resources */,
-				FC4261BF2CF7352B0076BA94 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,14 +460,17 @@
 				FCDE1B592CF782B2001036A1 /* HerosUseCase.swift in Sources */,
 				FC780D1F2CF65EA900D52D23 /* EndPoints.swift in Sources */,
 				FC780D1D2CF65E3C00D52D23 /* LoginUseCaseProtocol.swift in Sources */,
+				FCFA3B9C2CF8684A007A378F /* HerosViewModel.swift in Sources */,
 				FC780D132CF64D9200D52D23 /* LoginViewController.swift in Sources */,
-				FC4261C02CF7352B0076BA94 /* HomeViewController.swift in Sources */,
 				FCDE1B512CF77D19001036A1 /* NetworkHeros.swift in Sources */,
+				FCFA3BA62CF87B7F007A378F /* UIImage&Extensions.swift in Sources */,
 				FC780D172CF65C4E00D52D23 /* AppState.swift in Sources */,
 				FC780D2D2CF6643E00D52D23 /* LoginRepository.swift in Sources */,
 				FC780CF52CF647DA00D52D23 /* AppDelegate.swift in Sources */,
+				FCFA3BAA2CF87C16007A378F /* HerosTableViewCell.swift in Sources */,
 				FC780D152CF64F1500D52D23 /* LoginView.swift in Sources */,
 				FC780D262CF6602A00D52D23 /* ConstantsApp.swift in Sources */,
+				FCFA3B9E2CF8697A007A378F /* HerosTableViewController.swift in Sources */,
 				FCDE1B4F2CF77C8D001036A1 /* HerosRepositoryProtocol.swift in Sources */,
 				FC4261CA2CF76FA40076BA94 /* NetworkLoginProtocol.swift in Sources */,
 				FC780D212CF65F2E00D52D23 /* HTTPResponseCodes.swift in Sources */,

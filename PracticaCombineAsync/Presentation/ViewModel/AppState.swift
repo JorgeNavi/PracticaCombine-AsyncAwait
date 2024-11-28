@@ -17,9 +17,9 @@ final class AppState {
     }
     
     
-    func loginApp(user: String, password: String) {
+    func loginApp(user: String, pass: String) {
         Task { //Task para crear un contexto asincrono. Si no lo pusieramos, al añadir el await debajo se quejaría
-            if (await loginUseCase.loginApp(user: user, password: password)) { //el await se queda esperando a que el siguiente código respinda
+            if (await loginUseCase.loginApp(user: user, password: pass)) { //el await se queda esperando a que el siguiente código respinda
                 self.loginStatus = .success
             } else {
                 self.loginStatus = .error

@@ -37,10 +37,12 @@ final class NetworkHeros: NetworkHerosProtocol {
 
 final class NetworkHerosFake: NetworkHerosProtocol {
     func getHeros(filter: String) async -> [HerosModel] {
-        return getHerosFromJson()
+        //return getHerosFromJson()
+        return getHerosHardcoded()
     }
 }
 
+/*
 func getHerosFromJson() -> [HerosModel] {
     if let url = Bundle.main.url(forResource: "heros", withExtension: "json") {
         do {
@@ -53,7 +55,7 @@ func getHerosFromJson() -> [HerosModel] {
         }
     }
     return []
-}
+}*/
 
 func getHerosHardcoded() -> [HerosModel] {
     let model1 = HerosModel(id: UUID(),

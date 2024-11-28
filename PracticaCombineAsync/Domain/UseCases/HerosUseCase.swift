@@ -28,4 +28,5 @@ final class HeroUseCaseFake: HerosUseCaseProtocol {
     func getHeros(filter: String) async -> [HerosModel] {
         return await repo.getHeros(filter: filter)
     }
+
 }

@@ -156,7 +156,7 @@ final class PracticaCombineAsyncTests: XCTestCase {
     }
     
     
-    func testHeroiewViewModel() async throws  {
+    func testHeroViewModel() async throws  {
         let vm = HerosViewModel(useCase: HeroUseCaseFake())
         XCTAssertNotNil(vm)
         XCTAssertEqual(vm.herosData.count, 2) //debe haber 2 heroes Fake mokeados
@@ -237,6 +237,13 @@ final class PracticaCombineAsyncTests: XCTestCase {
         let view =  await HerosTableViewController(appState: AppState(loginUseCase: LoginUseCaseFake()), viewModel: viewModel)
         XCTAssertNotNil(view)
         
+    }
+    
+    func testHeroDetailViewModel() async throws  {
+        let model = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
+        let vm = HeroDetailViewModel(hero: model ,useCase: TransformationsUseCaseFake())
+        XCTAssertNotNil(vm)
+        XCTAssertEqual(vm.getTransformations(id: model.id).count, 2) //debe haber 2 heroes Fake mokeados
     }
     
 }

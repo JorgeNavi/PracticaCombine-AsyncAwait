@@ -55,6 +55,7 @@ class HeroeDetailViewController: UIViewController, UICollectionViewDataSource, U
         layout.itemSize = CGSize(width: 100, height: 120)
         layout.minimumLineSpacing = 10
         layout.minimumInteritemSpacing = 10
+        layout.scrollDirection = .horizontal
         transformationsContainer.collectionViewLayout = layout
     }
     
@@ -79,7 +80,7 @@ class HeroeDetailViewController: UIViewController, UICollectionViewDataSource, U
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HeroeDetailCollectionViewCell", for: indexPath) as? HeroeDetailCollectionViewCell else {
-            fatalError("Could not dequeue HeroeDetailCollectionViewCell")
+            fatalError("Error en la configuración de celda")
         }
         
         let transformation = viewModel.transformations[indexPath.item]

@@ -161,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				FCFA3BAC2CF889BB007A378F /* Resources */,
-				FC780D292CF6637E00D52D23 /* Preview Content */,
 				FC780CFC2CF647E700D52D23 /* Presentation */,
 				FC780CFD2CF647F000D52D23 /* Domain */,
 				FC780CFE2CF6486600D52D23 /* Data */,
@@ -335,13 +334,6 @@
 				FC4261BA2CF730CD0076BA94 /* ErrorViewController.xib */,
 			);
 			path = Error;
-			sourceTree = "<group>";
-		};
-		FC780D292CF6637E00D52D23 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		FCFA3BA72CF87BC4007A378F /* Cells */ = {

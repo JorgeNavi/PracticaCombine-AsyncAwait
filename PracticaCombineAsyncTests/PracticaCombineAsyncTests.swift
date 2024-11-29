@@ -368,4 +368,18 @@ final class PracticaCombineAsyncTests: XCTestCase {
         vm.closeUserSession()
         XCTAssertEqual(token, "")
     }
+    
+    func testHerosTableViewLoadHeros() {
+        let vm = HerosViewModel()
+        let view = HerosTableViewController(appState: AppState(loginUseCase: LoginUseCaseFake()), viewModel: vm)
+        let model1 = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
+        let model2 = HerosModel(id: UUID(), favorite: false, description: "info", photo: "url", name: "vegeta")
+        vm.herosData = [model1, model2]
+        
+        view.bindingUI()
+        view.tableView.reloadData()
+        
+        let numberOfRows = view.tableView(view.tableView, numberOfRowsInSection: 0)
+        XCTAssertEqual(numberOfRows, 2)
+    }
 }

@@ -32,7 +32,7 @@ class HerosTableViewController: UITableViewController {
         self.appState?.closeUserSession()
     }
     
-    private func bindingUI() {
+    func bindingUI() {
         self.viewModel.$herosData
             .receive(on: DispatchQueue.main)
             .sink{ data in

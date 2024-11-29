@@ -156,15 +156,11 @@
 		FC780CF42CF647DA00D52D23 /* PracticaCombineAsync */ = {
 			isa = PBXGroup;
 			children = (
+				FC782F7C2CF9CE160072DE8A /* Supporting Files */,
 				FCFA3BAC2CF889BB007A378F /* Resources */,
 				FC780CFC2CF647E700D52D23 /* Presentation */,
 				FC780CFD2CF647F000D52D23 /* Domain */,
 				FC780CFE2CF6486600D52D23 /* Data */,
-				FC780CEB2CF647DA00D52D23 /* AppDelegate.swift */,
-				FC780CEC2CF647DA00D52D23 /* Assets.xcassets */,
-				FC780CED2CF647DA00D52D23 /* Info.plist */,
-				FC780CEF2CF647DA00D52D23 /* LaunchScreen.storyboard */,
-				FC780CF22CF647DA00D52D23 /* SceneDelegate.swift */,
 			);
 			path = PracticaCombineAsync;
 			sourceTree = "<group>";
@@ -262,8 +258,8 @@
 		FC780D082CF64A6E00D52D23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FCFA3BBF2CF8A020007A378F /* HeroDetail */,
 				FCFA3BA52CF87B77007A378F /* UIImage&Extensions.swift */,
+				FCFA3BBF2CF8A020007A378F /* HeroDetail */,
 				FC780D0E2CF64AA000D52D23 /* Error */,
 				FC780D0D2CF64A9B00D52D23 /* Home */,
 				FC780D0C2CF64A9500D52D23 /* Login */,
@@ -316,13 +312,32 @@
 			path = PracticaCombineAsyncTests;
 			sourceTree = "<group>";
 		};
+		FC782F7B2CF9CDEA0072DE8A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA3BC42CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift */,
+				FCFA3BC52CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FC782F7C2CF9CE160072DE8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC780CEB2CF647DA00D52D23 /* AppDelegate.swift */,
+				FC780CEC2CF647DA00D52D23 /* Assets.xcassets */,
+				FC780CED2CF647DA00D52D23 /* Info.plist */,
+				FC780CEF2CF647DA00D52D23 /* LaunchScreen.storyboard */,
+				FC780CF22CF647DA00D52D23 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FCFA3BA72CF87BC4007A378F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				FCFA3BA82CF87C16007A378F /* HerosTableViewCell.swift */,
 				FCFA3BA92CF87C16007A378F /* HerosTableViewCell.xib */,
-				FCFA3BC42CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift */,
-				FCFA3BC52CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -338,6 +353,7 @@
 		FCFA3BBF2CF8A020007A378F /* HeroDetail */ = {
 			isa = PBXGroup;
 			children = (
+				FC782F7B2CF9CDEA0072DE8A /* Cells */,
 				FCFA3BC02CF8A041007A378F /* HeroeDetailViewController.swift */,
 				FCFA3BC12CF8A041007A378F /* HeroeDetailViewController.xib */,
 			);
@@ -547,7 +563,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5K323YN9M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;
+				INFOPLIST_FILE = "PracticaCombineAsync/Supporting Files/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Practica Modulo Async/Reactive";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -579,7 +595,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5K323YN9M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PracticaCombineAsync/Info.plist;
+				INFOPLIST_FILE = "PracticaCombineAsync/Supporting Files/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Practica Modulo Async/Reactive";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

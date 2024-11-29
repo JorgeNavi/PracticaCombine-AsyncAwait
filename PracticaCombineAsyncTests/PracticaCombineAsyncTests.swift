@@ -106,6 +106,7 @@ final class PracticaCombineAsyncTests: XCTestCase {
     }
     
     
+    
     func testUIErrorView() async throws  {
 
         let appStateVM = AppState(loginUseCase: LoginUseCaseFake())
@@ -334,5 +335,37 @@ final class PracticaCombineAsyncTests: XCTestCase {
         
     }
     
+    func testLoadImageRemote() {
+        let expectation = XCTestExpectation(description: "Load image")
+        let model = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
+        XCTAssertNotNil(model)
+        let imageView = UIImageView()
+        XCTAssertNotNil(imageView)
+        let url = URL(string: model.photo)
+        XCTAssertNotNil(url)
+        
+        let image = imageView.loadImageRemote(url: url!)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            XCTAssertNotNil(image)
+            expectation.fulfill()
+        }
+        wait(for: [expectation], timeout: 5)
+    }
     
+    func testCloseSessionForAppState() {
+        let KC = KeyChainKC()
+        XCTAssertNotNil(KC)
+        //reset token
+        KC.saveKC(_: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN, value: "")
+        
+        //caso de uso con el fake repository
+        let vm = AppState(loginUseCase: LoginUseCaseFake())
+        XCTAssertNotNil(vm)
+        
+        let token = KC.loadKC(_: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
+        
+        vm.closeUserSession()
+        XCTAssertEqual(token, "")
+    }
 }

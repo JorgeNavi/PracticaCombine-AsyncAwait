@@ -29,6 +29,7 @@
 		FC780D262CF6602A00D52D23 /* ConstantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D252CF6602A00D52D23 /* ConstantsApp.swift */; };
 		FC780D2D2CF6643E00D52D23 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */; };
 		FC780D322CF666A400D52D23 /* KCLibrarySwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC780D312CF666A400D52D23 /* KCLibrarySwift */; };
+		FC782F642CF9C2D30072DE8A /* PracticaCombineAsyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC782F622CF9C2D30072DE8A /* PracticaCombineAsyncTests.swift */; };
 		FCDE1B4D2CF77A4E001036A1 /* HerosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE1B4C2CF77A45001036A1 /* HerosModel.swift */; };
 		FCDE1B4F2CF77C8D001036A1 /* HerosRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE1B4E2CF77C8D001036A1 /* HerosRepositoryProtocol.swift */; };
 		FCDE1B512CF77D19001036A1 /* NetworkHeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE1B502CF77D19001036A1 /* NetworkHeros.swift */; };
@@ -87,6 +88,7 @@
 		FC780D222CF65F7E00D52D23 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		FC780D252CF6602A00D52D23 /* ConstantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsApp.swift; sourceTree = "<group>"; };
 		FC780D2C2CF6643E00D52D23 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		FC782F622CF9C2D30072DE8A /* PracticaCombineAsyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaCombineAsyncTests.swift; sourceTree = "<group>"; };
 		FC7AEE7C2CF8D9C600DA99F2 /* PracticaCombineAsync.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PracticaCombineAsync.xctestplan; sourceTree = "<group>"; };
 		FCDE1B4C2CF77A45001036A1 /* HerosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosModel.swift; sourceTree = "<group>"; };
 		FCDE1B4E2CF77C8D001036A1 /* HerosRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosRepositoryProtocol.swift; sourceTree = "<group>"; };
@@ -110,14 +112,6 @@
 		FCFA3BC42CF8ABDD007A378F /* HeroeDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		FCFA3BC52CF8ABDD007A378F /* HeroeDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroeDetailCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PracticaCombineAsyncTests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FC780CB42CF6449600D52D23 /* Frameworks */ = {
@@ -145,7 +139,7 @@
 				FC7AEE7C2CF8D9C600DA99F2 /* PracticaCombineAsync.xctestplan */,
 				FC4261C12CF73C260076BA94 /* Localizable.strings */,
 				FC780CF42CF647DA00D52D23 /* PracticaCombineAsync */,
-				FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */,
+				FC782F632CF9C2D30072DE8A /* PracticaCombineAsyncTests */,
 				FC780CB82CF6449600D52D23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -314,6 +308,14 @@
 			path = Error;
 			sourceTree = "<group>";
 		};
+		FC782F632CF9C2D30072DE8A /* PracticaCombineAsyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC782F622CF9C2D30072DE8A /* PracticaCombineAsyncTests.swift */,
+			);
+			path = PracticaCombineAsyncTests;
+			sourceTree = "<group>";
+		};
 		FCFA3BA72CF87BC4007A378F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,9 +380,6 @@
 			);
 			dependencies = (
 				FC780CCF2CF6449700D52D23 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FC780CD02CF6449700D52D23 /* PracticaCombineAsyncTests */,
 			);
 			name = PracticaCombineAsyncTests;
 			packageProductDependencies = (
@@ -503,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC782F642CF9C2D30072DE8A /* PracticaCombineAsyncTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

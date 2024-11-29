@@ -159,6 +159,13 @@ final class PracticaCombineAsyncTests: XCTestCase {
     func testHeroViewModel() async throws  {
         let vm = HerosViewModel(useCase: HeroUseCaseFake())
         XCTAssertNotNil(vm)
+        
+        let expectation = self.expectation(description: "Heros get")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            expectation.fulfill()
+        }
+        
+        wait(for: [expectation], timeout: 5)
         XCTAssertEqual(vm.herosData.count, 2) //debe haber 2 heroes Fake mokeados
     }
     
@@ -242,8 +249,13 @@ final class PracticaCombineAsyncTests: XCTestCase {
     func testHeroDetailViewModel() async throws  {
         let model = HerosModel(id: UUID(), favorite: true, description: "des", photo: "url", name: "goku")
         let vm = HeroDetailViewModel(hero: model, useCase: TransformationsUseCaseFake())
-        XCTAssertNotNil(vm)
-        XCTAssertEqual(vm.transformations.count, 2) //debe haber 2 heroes Fake mokeados
+        let expectation = self.expectation(description: "Transfromations loaded")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            expectation.fulfill()
+        }
+        
+        wait(for: [expectation], timeout: 5)
+        XCTAssertEqual(vm.transformations.count, 2)
     }
     
     func testTransformationsUseCase() async throws  {
